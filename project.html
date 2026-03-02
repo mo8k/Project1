@@ -23,10 +23,10 @@
   <p>I started off by purchasing two micro-PCs: a Dell Optiplex Mini and an HP Helpdesk 800 G1. I installed Proxmox VE, allowing me to configure the nodes as a cluster with centralized management. I experimented with the 2 nodes for a while, learning about network architecture and segmentation with VLAN configuration and experimenting with a variety of services, alongside running labs like penetration testing and vulnerability assessment.</p>
   <p>That wasn't enough for me. I eventually expanded to a three-node setup, establishing quorum using a TP-Link managed switch to segment my traffic from the router directly to nodes. I was then able to get my hands on a Dell Optiplex 980 on campus, where I installed OPNsense, transforming it into a physical firewall and router. From there I was able to move my nodes from my home network to a dedicated management VLAN through 802.1Q VLAN tagging, ensuring that management traffic and lab traffic are logically isolated. I also got my hands on a Raspberry Pi 3B+ and placed it on a dedicated VLAN. I configured AdGuard as a high-level DNS filter and Unbound as a recursive DNS resolver, eliminating reliance on third-party upstream providers like Google or Cloudflare for better privacy and security.</p>
   <h2>This is how I started off</h2>
-  <img src="images/started.jpg" alt="My Home Lab Start">
+  <img src="images/started.jpg" alt="This is how my home lab started with just my router and two micro-PCs">
   <h2>This is when I added the third node</h2>
-  <img src="images/second.jpg" alt="My Home Lab Three Node">
+  <img src="images/second.jpg" alt="Here I added a third node and itergraded a managed switch to route traffic from my router to the nodes">
 <h2>My Final Home Lab Setup</h2>
-<img src="images/then.jpg" alt="My Home Lab Final">
+<img src="images/then.jpg" alt="As of now thisis my commplete setup for my home lab now  that I placed in a rack more neatly and added a physical firewall and router as well as a Raspberry PI">
 </body>
 </html>
